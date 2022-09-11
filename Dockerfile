@@ -19,5 +19,5 @@ RUN apt-get update -qq \
     && curl -L https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/$OS/Release.key | apt-key add - \
     && apt-get update -qq \
     && apt-get install -y -qq --no-install-recommends \
-               cri-o \
+               cri-tools \
                skopeo \
